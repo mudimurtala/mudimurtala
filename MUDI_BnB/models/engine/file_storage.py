@@ -11,3 +11,7 @@ class FileStorage:
     def all(self):
         """Returns a dictionary of all the models(objects) that are currently stored"""
         return FileStorage.__objects
+    
+    def new(self, obj):
+        """Add a new object to the storage dictionary"""
+        self.all().update({obj.to_dict()['__class__'] + '.' + obj.id: obj})
