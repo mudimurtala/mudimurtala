@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+#cart-container, #product-container {
+    margin-bottom: 20px;
+}
+
+#product-container input {
+    margin-right: 10px;
+}
+
+#cart-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cart-items li {
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#total {
+    font-weight: bold;
+    margin-top: 10px;
+}
