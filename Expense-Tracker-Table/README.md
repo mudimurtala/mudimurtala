@@ -9,6 +9,7 @@ This is a small project I created to help master the concept of HTML tables. It 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
+- [Preview](#preview)
 - [License](#license)
 
 ## Project Overview
@@ -65,6 +66,10 @@ Example code snippet for adding a new expense:
 ## Contributing
 
 Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or submit a pull request.
+
+## Preview
+
+To preview on a browser, click here: https://mudimurtala.github.io/mudimurtala/Expense-Tracker-Table/
 
 ## License
 
