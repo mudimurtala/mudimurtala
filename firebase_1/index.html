@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="home">
+      <nav class="navbar">
+        <h1>Eventic</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#add-event">New Event</a></li>
+        </ul>
+      </nav>
+      <div class="welcome-event"></div>
+    </header>
+
+    <main>
+        <section id="events">
+            <h1 class="section-title">Events</h1>
+            <div class="events-container"></div>
+        </section>
+        
+        <section id="add-event">
+            <h1 class="section-title">New Event</h1>
+            <form class="form">
+                <input type="text" id="name" placeholder="Name">
+                <input type="number" id="attendee" placeholder="Attendees">
+                <textarea id="description" cols="30" rows="10" placeholder="Description..."></textarea>
+                <select id="status">
+                    <option value="0">Free</option>
+                    <option value="1">Paid</option>
+                </select>
+                <button class="btn btn-primary" type="button">Save</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Firebase Scripts -->
+    <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js"></script>
+
+    <script>
+        // Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyD3l_SwKThHxJXLZXf4BcQwJReDS3ko1Y8",
+            authDomain: "ibrahim-ndaw.firebaseapp.com",
+            projectId: "ibrahim-ndaw",
+            storageBucket: "ibrahim-ndaw.appspot.com",
+            messagingSenderId: "352770807341",
+            appId: "1:352770807341:web:05c9a22a01e41f748ccaa4",
+            measurementId: "G-LZ49LJ26VZ"
+        };
+
+        // Initialize Firebase
+        const app = firebase.initializeApp(firebaseConfig);
+        const analytics = firebase.getAnalytics(app);
+
+        // Initialize Firestore
+        const db = firebase.firestore();
+    </script>
+
+    <script src="db.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
