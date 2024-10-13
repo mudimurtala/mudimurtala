@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Firebase Project</title>
+</head>
+<body>
+  <h1>Hello Firebase</h1>
+
+  <!-- Sign Up Form -->
+<form id="signup-form">
+    <input type="email" id="signup-email" placeholder="Enter email">
+    <input type="password" id="signup-password" placeholder="Enter password">
+    <button type="submit">Sign Up</button>
+  </form>
+  
+  <!-- Sign In Form -->
+  <form id="signin-form">
+    <input type="email" id="signin-email" placeholder="Enter email">
+    <input type="password" id="signin-password" placeholder="Enter password">
+    <button type="submit">Sign In</button>
+  </form>
+  
+  <!-- Sign Out Button -->
+  <button id="signout-button">Sign Out</button>
+
+  <!-- Use type="module" to support ES module imports -->
+  <script type="module">
+    // Import the Firebase SDKs
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-analytics.js";
+    import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-auth.js";
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyBMp-8i3BRb391rsJIX_paUDRo8Oz3scH0",
+      authDomain: "my-portfolio-project-5e8d0.firebaseapp.com",
+      projectId: "my-portfolio-project-5e8d0",
+      storageBucket: "my-portfolio-project-5e8d0.appspot.com",
+      messagingSenderId: "828652580713",
+      appId: "1:828652580713:web:235710c20ec13b9cb417f8",
+      measurementId: "G-CQ4WNY08CR"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+    const auth = getAuth(app);
+
+    console.log('Firebase initialized with Analytics and Auth');
+  </script>
+
+  <script type="module" src="js/auth.js"></script> <!-- This is the JS file with the Firebase auth logic -->
+</body>
+</html>
