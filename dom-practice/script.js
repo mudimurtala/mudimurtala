@@ -35,3 +35,7 @@ metoo.textContent = "ME TOO!";
 seconddiv.appendChild(metoo);
 
 container.appendChild(seconddiv);
+
+
+const btn = document.querySelector("#btn");
+btn.onclick = () => alert("Hello Mudi!");
