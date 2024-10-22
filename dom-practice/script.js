@@ -37,5 +37,19 @@ seconddiv.appendChild(metoo);
 container.appendChild(seconddiv);
 
 
+
 const btn = document.querySelector("#btn");
-btn.onclick = () => alert("Hello Mudi!");
+btn.addEventListener("click", function (e) {
+    e.target.style.background = "blue";
+  });
+
+
+  const buttons = document.querySelectorAll("button");
+
+// we use the .forEach method to iterate through each button
+buttons.forEach((element) => {
+  // and for each one we add a 'click' listener
+  element.addEventListener("click", () => {
+    alert(element.id);
+  });
+});
