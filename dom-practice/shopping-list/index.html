@@ -4,17 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping list example</title>
-    <style>
-      li {
-        margin-bottom: 10px;
-      }
-
-      li button {
-        font-size: 12px;
-        margin-left: 20px;
-        color: #666;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
 
@@ -31,28 +21,30 @@
     </ul>
 
     <script>
-        const unlist = document.querySelector("ul");
-        const input = document.querySelector("input");
-        const btn = document.querySelector("button");
+      const list = document.querySelector('ul');
+      const input = document.querySelector('input');
+      const button = document.querySelector('button');
 
-        btn.addEventListener("click", () => {
-            const inputElement = document.getElementById("item");
-            inputElement.innerText = '';
+      button.addEventListener('click', () => {
+        const myItem = input.value;
+        input.value = '';
 
-            const listElement = document.createElement("li");
-            const spanElement = document.createElement("span");
-            const buttonElement = document.createElement("button");
+        const listItem = document.createElement('li');
+        const listText = document.createElement('span');
+        const listBtn = document.createElement('button');
 
-            listElement.appendChild(spanElement);
-            listElement.appendChild(buttonElement);
+        listItem.appendChild(listText);
+        listText.textContent = myItem;
+        listItem.appendChild(listBtn);
+        listBtn.textContent = 'Delete';
+        list.appendChild(listItem);
 
-            spanElement.textContent = `${inputElement.value}`;
-            buttonElement.textContent = "Delete";
-
-            unlist.appendChild(listElement);
-
-
+        listBtn.addEventListener('click', () => {
+          list.removeChild(listItem);
         });
+
+        input.focus();
+      });
     </script>
   </body>
 </html>
