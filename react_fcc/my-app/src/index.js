@@ -57,7 +57,7 @@ function CustomPage() {
     <div>
       <header>
         <nav>
-          <img src='../public/logo193.png' width="40px"></img>
+          <img src='../public/logo193.png' width="40px" alt='logo image'></img>
         </nav>
       </header>
       <h1>Reasons I'm excited to learn React</h1>
