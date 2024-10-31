@@ -25,12 +25,21 @@
   <!-- Sign Out Button -->
   <button id="signout-button">Sign Out</button>
 
+
+  <form id="addUserForm">
+    <input type="text" id="name" placeholder="Name" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="text" id="projects" placeholder="Projects (comma separated)" required>
+    <button type="submit">Add User</button>
+  </form>
+
   <!-- Use type="module" to support ES module imports -->
   <script type="module">
     // Import the Firebase SDKs
     import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-app.js";
     import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-analytics.js";
     import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-auth.js";
+    import { getFirestore } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-firestore.js";
 
     // Your web app's Firebase configuration
     const firebaseConfig = {
@@ -47,10 +56,13 @@
     const app = initializeApp(firebaseConfig);
     const analytics = getAnalytics(app);
     const auth = getAuth(app);
+    const db = getFirestore(app);
 
     console.log('Firebase initialized with Analytics and Auth');
   </script>
 
-  <script type="module" src="js/auth.js"></script> <!-- This is the JS file with the Firebase auth logic -->
+  <!-- <script type="module" src="js/auth.js"></script>
+  <script type="module" src="js/firestore.js"></script>
+  <script type="module" src="js/listeners.js"></script> -->
 </body>
 </html>
