@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import Header from './Header';
+import Footer from './Footer';
+import MainContent from './MainContent';
 
 // const navbar = (
 //     <nav>
@@ -52,24 +55,25 @@ import './index.css';
 // }
 
 
-function CustomPage() {
+// /**
+// Challenge: 
+
+// - Move the `footer` into its own component called "Footer" 
+//   and render that component inside the Page component.
+// - Move the `h1` and `ol` together into another component
+//   called "MainContent" and render inside Page as well.
+// */
+
+
+
+function App() {
   return (
     <div>
-      <header>
-        <nav>
-          <img src='../public/logo193.png' width="40px" alt='logo image'></img>
-        </nav>
-      </header>
-      <h1>Reasons I'm excited to learn React</h1>
-      <ol>
-        <li>Because I want to be an expert Front-End Developer</li>
-        <li>Because React is used by most</li>
-        <li>Because it is easy to learn</li>
-        <li>Because of it's dominance in the industry</li>
-      </ol>
-      <footer><small>© 2024 mudi development. All rights reserved.</small></footer>
+      <Header />
+      <MainContent />
+      <Footer />
     </div>
   )
 }
 
-ReactDOM.render(<CustomPage />, document.querySelector("#root"));
+ReactDOM.render(<App />, document.querySelector("#root"));
