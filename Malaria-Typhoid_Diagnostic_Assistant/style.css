@@ -131,3 +131,54 @@ html, body {
   footer {
     margin-top: 10px;
   }
+
+
+  /* Symptom Checker Section */
+#symptom-checker {
+  padding: 2rem;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+#symptom-form {
+  display: flex;
+  gap: 1rem;
+}
+
+#symptom-input {
+  flex: 3;
+  padding: 0.8rem;
+  font-size: 1.6rem;
+}
+
+#symptom-form input[type="submit"] {
+  flex: 1;
+  padding: 0.8rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  font-size: 1.6rem;
+}
+
+#results-container {
+  margin-top: 2rem;
+}
+
+.result-item {
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.result-item h3 {
+  font-size: 2rem;
+  color: #2a2a2a;
+}
+
+.result-item p {
+  font-size: 1.6rem;
+  color: #555;
+}
