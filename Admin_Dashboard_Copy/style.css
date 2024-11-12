@@ -1,0 +1,195 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: black;
+    height: 100%;
+}
+
+/* * {
+    outline: 1px solid black;
+} */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.grid-container {
+    display: grid;
+    width: 65%;
+    height: 100vh;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 1fr 5fr;
+}
+
+.sidebar {
+    background-color: #60a5fa;
+    grid-column: 1 / 2;
+    grid-row: 1 / -1;
+    padding: 20px;
+}
+
+
+.header {
+    background-color: #ffffff;
+    grid-column: 2 / -1;
+    grid-row: 1 / 2;
+    margin-bottom: -25px;
+    z-index: 1;
+
+    display: grid;
+    grid-template-rows: auto 1fr;
+    padding: 15px;
+}
+
+.header div {
+    text-align: center;
+}
+
+.top-section {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto auto;
+    align-items: center;
+    gap: 15px;
+}
+
+
+
+#search_bar {
+    padding: 2px;
+    background-color: #e5e7eb;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    width: 90%;
+}
+
+.user-name {
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    font-size: 0.9em;
+}
+
+.koala-icon {
+    background-color: #fd8d2f;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.koala-icon .mdi {
+    font-size: 1em;
+    color: white;
+}
+
+.header-bottom {
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.header-bottom div {
+    text-align: center;
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:10px;
+}
+
+.button-container button {
+    background-color: #60a5fa;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 0.8em;
+    width: 50%;
+    height: 50%;
+    align-self: center;
+    justify-self: center;
+}
+
+
+
+.header-bottom .text-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.header-bottom .text-container .mdi-koala {
+    font-size: 2em;
+    background-color: #fd8d2f;
+    border-radius: 50%;
+    color: white;
+    padding: 10px;
+}
+
+.header-bottom .text-container .user-name {
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 1.1em;
+}
+
+.sidebar div {
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.sidebar div span {
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+
+.sidebar div:first-child {
+    font-size: 1.4em;
+    margin-bottom: 40px;
+}
+
+.sidebar div:nth-child(2) span, .sidebar div:nth-child(3) span {
+    margin-bottom: 20px;
+}
+
+.main-content {
+    display: grid;
+    background-color: #e5e7eb;
+    grid-column: 2 / -1;
+    grid-row: 2 / -1;
+    z-index: 0;
+    grid-template-columns: 2fr 1fr;
+    padding: 20px 5px 5px 5px;
+    gap: 2px;
+}
+
+.left-section {
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.right-section {
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.left-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px 15px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.left-section .box {
+    background-color: #ffffff;
+    border-radius: 5px;
+    height: 120px;
+}
