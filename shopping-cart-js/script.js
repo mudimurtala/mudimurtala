@@ -14,7 +14,6 @@ function updateCartDisplay() {
         itemElement.textContent = `${productName}: ${quantity}`;
         cartItemsElement.appendChild(itemElement);
 
-        // Assuming each item costs $10
         total += quantity * 10;
     });
 
