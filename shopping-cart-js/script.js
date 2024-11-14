@@ -31,7 +31,6 @@ function addToCart(productName, quantity) {
     updateCartDisplay();
 }
 
-// Event listener for the Add to Cart button
 document.getElementById('add-button').addEventListener('click', () => {
     const productName = document.getElementById('product-name').value;
     const productQuantity = parseInt(document.getElementById('product-quantity').value);
