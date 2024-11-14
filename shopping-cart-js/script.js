@@ -1,7 +1,7 @@
 // Initializing a new Map for the shopping cart
 const cart = new Map();
 
-// Function to update the cart display
+
 function updateCartDisplay() {
     const cartItemsElement = document.getElementById('cart-items');
     const totalAmountElement = document.getElementById('total-amount');
