@@ -6,7 +6,6 @@ function updateCartDisplay() {
     const cartItemsElement = document.getElementById('cart-items');
     const totalAmountElement = document.getElementById('total-amount');
     let total = 0;
-
     cartItemsElement.innerHTML = '';
 
     cart.forEach((quantity, productName) => {
