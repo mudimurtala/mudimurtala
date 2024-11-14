@@ -10,7 +10,7 @@ body {
 }
 
 .main-container {
-    border: 15px solid maroon;
+    border: 15px solid rgb(96, 3, 3);
     border-radius: 5px;
     overflow: hidden;
     width: 440px;
