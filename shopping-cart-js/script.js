@@ -20,7 +20,6 @@ function updateCartDisplay() {
     totalAmountElement.textContent = total;
 }
 
-// Function to add items to the cart
 function addToCart(productName, quantity) {
     if (cart.has(productName)) {
         cart.set(productName, cart.get(productName) + quantity);
