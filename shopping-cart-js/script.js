@@ -28,7 +28,6 @@ function addToCart(productName, quantity) {
         cart.set(productName, quantity);
     }
 
-    // Update the cart display
     updateCartDisplay();
 }
 
