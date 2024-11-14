@@ -28,6 +28,6 @@ This project is a simple **Shopping Cart** implementation using HTML, CSS, and J
 ## Usage
 
 1. Clone the repository to your local machine.
-2. Open `index.html` in your web browser.
+2. Open `index.html` in your web browser ie. Explore or Chrome.
 3. Start adding products to see the shopping cart in action as is.
 
