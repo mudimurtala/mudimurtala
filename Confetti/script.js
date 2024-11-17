@@ -1,4 +1,3 @@
-
 document.getElementById('celebrate-btn').addEventListener('click', () => {
     const confettiContainer = document.getElementById('confetti-container');
   
