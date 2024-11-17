@@ -15,3 +15,10 @@ A fun and interactive webpage that generates colorful confetti falling across th
 - **HTML**: Structure of the webpage.
 - **CSS**: Styling and animations for the confetti and button.
 - **JavaScript**: Handles the dynamic creation and control of confetti.
+
+---
+
+## 🚀 How to Use
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/confetti-generator.git
