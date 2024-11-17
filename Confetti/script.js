@@ -15,7 +15,7 @@ document.getElementById('celebrate-btn').addEventListener('click', () => {
       
       confettiContainer.appendChild(confetti);
   
-      // Remove confetti after animation ends
+
       confetti.addEventListener('animationend', () => {
         confetti.remove();
       });
