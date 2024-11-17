@@ -33,3 +33,4 @@ confetti-generator/
    git clone https://github.com/yourusername/confetti-generator.git
 
    ```
+---
