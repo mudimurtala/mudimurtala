@@ -13,10 +13,10 @@ A fun and interactive webpage that generates colorful confetti falling across th
 
 ## Project Structure
 confetti-generator/
-├── index.html        # Main HTML file
-├── styles.css        # CSS for styling and animations
-├── script.js         # JavaScript for confetti logic
-└── README.md         # Project documentation
+├── index.html
+├── styles.css
+├── script.js
+└── README.md
 
 ---
 
