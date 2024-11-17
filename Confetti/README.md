@@ -8,3 +8,10 @@ A fun and interactive webpage that generates colorful confetti falling across th
 - Click a button to trigger animated confetti.
 - Confetti falls in random positions, colors, and speeds.
 - Simple and responsive design.
+
+---
+
+## 🛠️ Technologies Used
+- **HTML**: Structure of the webpage.
+- **CSS**: Styling and animations for the confetti and button.
+- **JavaScript**: Handles the dynamic creation and control of confetti.
