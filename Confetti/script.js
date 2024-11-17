@@ -22,7 +22,7 @@ document.getElementById('celebrate-btn').addEventListener('click', () => {
     }
   });
   
-  // Helper function to generate random colors
+
   function getRandomColor() {
     const colors = ['#FF5733', '#33FF57', '#5733FF', '#F1C40F', '#8E44AD', '#1ABC9C'];
     return colors[Math.floor(Math.random() * colors.length)];
