@@ -11,7 +11,7 @@ A fun and interactive webpage that generates colorful confetti falling across th
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 confetti-generator/
 ├── index.html
 ├── styles.css
