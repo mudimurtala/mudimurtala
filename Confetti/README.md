@@ -22,3 +22,6 @@ A fun and interactive webpage that generates colorful confetti falling across th
 1. Clone this repository:
    ```bash
    git clone https://github.com/yourusername/confetti-generator.git
+
+   ```
+   
