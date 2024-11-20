@@ -1,11 +1,6 @@
-<!-- Profile Header -->
 <h1 align="center">Hi 👋, I'm Mudi Murtala</h1>
 <h3 align="center">A Passionate Software Engineer and Innovator</h3>
 
-<!-- Profile Banner -->
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/placeholder-image-banner.jpg" alt="GitHub Banner" width="100%">
-</p>
 
 ---
 
