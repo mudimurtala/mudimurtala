@@ -10,7 +10,7 @@
 - 🚀 **Passion:** Solving business and social challenges through technology  
 - 🌱 **Inspirations:** Innovations in Education, Agriculture, and Teaching  
 - 💡 **Proficient In:**  
-  - Frontend: **HTML**, **CSS**, **JavaScript**, **React** *(learning)*, **Tailwind** *(learning)*  
+  - Frontend: **HTML**, **CSS**, **JavaScript**, **React**, **TypeScript**, **Tailwind**
   - Backend: **Python**, **C Programming Language**  
 
 ---
@@ -31,7 +31,7 @@
 - 🌐 HTML | 🎨 CSS | ✨ JavaScript | 🐍 Python | 🔧 C Programming Language  
 
 #### Frameworks & Libraries:
-- ⚛ React *(learning)* | 🌈 Tailwind *(learning)*  
+- ⚛ React | 🌈 Tailwind  
 
 #### Tools & Platforms:
 - 🐙 Git | 🛠 GitHub | 🔍 Debugging Tools | 💻 Linux/Unix Shell
