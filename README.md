@@ -5,8 +5,7 @@
 ---
 
 ### 👩‍💻 About Me
-
-- 🎓 **Graduate of:** ALX Software Engineering Program  
+ 
 - 🚀 **Passion:** Solving business and social challenges through technology  
 - 🌱 **Inspirations:** Innovations in Education, Agriculture, and Teaching  
 - 💡 **Proficient In:**  
