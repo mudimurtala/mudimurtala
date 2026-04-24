@@ -81,6 +81,7 @@ My workflow usually includes:
 
 ## 🌱 What I’m Focused On Now
 
+- Creating intuitive UI's using React, Tailwind & TypeScript
 - Building more with Go (CLI tools + backend services)
 - Shipping AI-enabled products with practical value
 - Writing cleaner, maintainable, production-ready code
@@ -107,6 +108,6 @@ My workflow usually includes:
 
 ## 🌟 Open To
 
-- Fellowship opportunities
+- Fellowship Opportunities
 - Software engineering roles
 - Collaborations on AI, healthtech, agri-tech, and education tech projects
